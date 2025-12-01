@@ -1,0 +1,25 @@
+{
+  "name": "web3-lab",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "contracts",
+    "api"
+  ],
+  "scripts": {
+    "build": "npm run build:contracts && npm run build:api",
+    "build:contracts": "npm run build --workspace contracts",
+    "build:api": "npm run build --workspace api",
+    "test": "npm run test --workspace contracts && npm run test --workspace api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jean8791/web3-lab.git"
+  },
+  "author": "Jean Moraes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jean8791/web3-lab/issues"
+  },
+  "homepage": "https://github.com/Jean8791/web3-lab#readme"
+}

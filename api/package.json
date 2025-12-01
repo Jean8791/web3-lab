@@ -1,0 +1,20 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "echo \"(api em JS não precisa de build)\"",
+    "dev": "node src/index.js",
+    "start": "node src/index.js",
+    "test": "echo \"(tests ainda não configurados)\" && exit 0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ethers": "^6.13.0",
+    "express": "^5.2.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
